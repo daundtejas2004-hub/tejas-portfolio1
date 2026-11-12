@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Daund - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">TD <span>Tejas.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">📍 JSPM University · Pune, Maharashtra, India</span>
+            <h1>Hi, I'm <span class="gradient-text">Tejas Daund</span></h1>
+            <h3 class="subtitle">Computer Science Engineering Student | Aspiring Software Developer</h3>
+            <p class="desc">
+                I'm a second-year B.Tech CSE student who enjoys programming, problem-solving and building technology that helps people. This portfolio brings together my blogs, projects and profiles.
+            </p>
+            <div class="buttons">
+                <a href="#about" class="btn btn-primary">Explore My Portfolio</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">Hello, I'm <span class="gradient-text">TEJAS</span></h2>
+        
+        <div class="card intro-card">
+            <p>I'm a second-year B.Tech Computer Science Engineering student at JSPM University, Pune. I enjoy turning ideas into working programs, and I'm building a strong base in Java, C, Python and data structures while exploring innovative, people-focused projects.</p>
+        </div>
+
+        <h3 class="sub-heading">EDUCATION</h3>
+        <div class="card edu-card">
+            <h4>Academic background</h4>
+            <p><strong>SY B.Tech – Computer Science Engineering</strong></p>
+            <p class="light-text">JSPM University, Pune · Currently in Second Year</p>
+            <p class="score-placeholder">CGPA / Percentage: [Add Score Here]</p>
+        </div>
+
+        <h3 class="sub-heading">Skills</h3>
+        <p class="light-text mb-2">Technical skills</p>
+        <div class="skills-grid">
+            <!-- Skill Cards -->
+            <div class="skill-card">
+                <div class="skill-info"><span>Java</span> <span class="badge-small">Learning</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info"><span>C</span> <span class="badge-small">Intermediate</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info"><span>Python</span> <span class="badge-small">Beginner</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 25%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info"><span>Data Structures</span> <span class="badge-small">Learning</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 35%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info"><span>HTML & CSS</span> <span class="badge-small">Beginner</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info"><span>Git & GitHub</span> <span class="badge-small">Beginner</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 25%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="section">
+        <h2 class="section-title">Blogs</h2>
+        <div class="card blog-card">
+            <span class="badge-small">STUDENT JOURNEY</span>
+            <span class="blog-date">[Date Placeholder]</span>
+            <h3>My Journey as a Computer Science Engineering Student</h3>
+            
+            <h4>Introduction</h4>
+            <p>Starting B.Tech in Computer Science Engineering felt exciting and a little overwhelming. Now, as a second-year student at JSPM University, I can finally see how much I have grown.</p>
+            
+            <h4>Experience</h4>
+            <p>In first year I wrote simple programs in C and learned how to think in steps. This year, Java introduced me to classes, objects and inheritance, and suddenly programs felt like real systems. Some bugs took hours to fix, but solving them was the most satisfying part.</p>
+            <p>Outside the classroom, college life in Pune — group studies, labs and projects with friends — taught me teamwork as much as coding. I also started exploring data structures, which changed how I think about storing and organising information.</p>
+            
+            <h4>Key Learnings</h4>
+            <ul>
+                <li>Consistent practice matters more than last-minute study.</li>
+                <li>Debugging patiently builds real problem-solving skills.</li>
+                <li>Explaining concepts to friends strengthens my own understanding.</li>
+            </ul>
+            
+            <h4>Conclusion</h4>
+            <p>I am still learning, but I am excited about what comes next. My goal is to become a capable software developer and build technology that genuinely helps people.</p>
+            
+            <a href="#" class="read-more">Read More →</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-layout">
+            <div class="project-info">
+                <h3>Java Programming Project – Student Management System</h3>
+                <h4>Problem Statement</h4>
+                <p>Maintaining student records on paper is slow and error-prone. A simple program is needed to add, search, update and delete student details quickly.</p>
+                <h4>Description</h4>
+                <p>A console-based Java application that manages student records such as roll number, name and course. The user picks options from a menu, and the program stores records in memory (and can be extended to files or a database).</p>
+                
+                <div class="tech-tags">
+                    <span>Java</span>
+                    <span>OOP: Classes & Objects</span>
+                    <span>ArrayList / Collections</span>
+                    <span>Scanner Input</span>
+                    <span>Exception Handling</span>
+                </div>
+                
+                <h4>Main Features</h4>
+                <ul>
+                    <li>Add a new student</li>
+                    <li>View all students</li>
+                    <li>Search by roll number</li>
+                    <li>Update student records</li>
+                    <li>Delete student records</li>
+                </ul>
+                <a href="#" class="btn btn-secondary mt-2">View on GitHub</a>
+            </div>
+            <div class="project-preview">
+                <div class="terminal-mockup">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-body">
+                        <p>> java StudentManagement</p>
+                        <p class="light-text">--- Student Management System ---</p>
+                        <p class="light-text">1. Add Student</p>
+                        <p class="light-text">2. View Students</p>
+                        <p class="light-text">3. Search Student</p>
+                        <p>> Enter choice: _</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links Section -->
+    <section id="links" class="section">
+        <h2 class="section-title">Links & Intro Video</h2>
+        <p class="light-text">My developer and social profiles, plus a short self-introduction video.</p>
+        
+        <h3 class="sub-heading mt-2">Find me online</h3>
+        <!-- Keeping this section empty for now as requested -->
+        <div class="links-container empty-state">
+            <!-- Add your links here later -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Tejas.dev</h3>
+        <p>Designed & Built by Tejas Daund</p>
+        <p>&copy; <span id="year"></span> All rights reserved.</p>
+        <a href="#home" class="back-to-top">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
